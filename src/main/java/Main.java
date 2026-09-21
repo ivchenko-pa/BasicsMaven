@@ -5,6 +5,6 @@ public class Main {
 
     public static int sum(int a, int b){
         System.out.println("We are in sum method");
-        return a+b;
+        return a+b+1;
     }
 }
