@@ -13,4 +13,14 @@ class MainTest {
         int actual = Main.sum(input_a,input_b);
         assertEquals(expected, actual);
     }
+
+    @Test
+    void sum_result7_when3and4() {
+        int input_a = 2;
+        int input_b = 4;
+
+        int expected = 7;
+        int actual = Main.sum(input_a,input_b);
+        assertEquals(expected, actual);
+    }
 }
